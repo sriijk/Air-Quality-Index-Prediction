@@ -45,7 +45,7 @@ This project predicts the **Air Quality Index (AQI)** using pollutant levels lik
 ## 🚀 Live Demo
 
 🌐 Hosted on **Streamlit Cloud**:  
-[🔗 Click Here to Try the App]([https://your-app-link.streamlit.app](https://air-quality-index-prediction-9ow6uwsmb3arig5kmkrrbb.streamlit.app/))  
+[🔗 Click Here to Try the App](https://air-quality-index-prediction-9ow6uwsmb3arig5kmkrrbb.streamlit.app/)
 
 ---
 
