@@ -2,7 +2,10 @@
 
 This project predicts the **Air Quality Index (AQI)** using pollutant levels like **PM2.5, NO₂, SO₂, CO, and O₃**, through a machine learning model. Built with **Streamlit**, it offers an interactive web interface for both individual and bulk predictions.
 
-![AQI App Banner](https://atovio.in/cdn/shop/articles/Air_Quality_Level.jpg?v=1744094358)
+<p align="center">
+  <img src="https://atovio.in/cdn/shop/articles/Air_Quality_Level.jpg?v=1744094358" width="500" alt= "Air Qality Index"/>
+</p>
+
 
 ---
 
@@ -32,10 +35,10 @@ This project predicts the **Air Quality Index (AQI)** using pollutant levels lik
 ## 📈 Sample Visualizations
 
 ### 🔥 Correlation Heatmap
-![Heatmap](correlation_heatmap.png)
+ <img src="correlation_heatmap.png" width="500" alt= "Heatmap"/>
 
 ### 📉 Actual vs Predicted AQI
-![AQI Prediction](actual_vs_predicted.png)
+ <img src="actual_vs_predicted.png" width="500" alt= "Actual vs Predicted AQI Graph"/>
 
 ---
 
@@ -59,3 +62,40 @@ pip install -r requirements.txt
 
 # Run the Streamlit app
 streamlit run streamlit_app.py
+
+```
+---
+
+📁 File Structure
+
+```
+aqi-predictor/
+├── aqi_predictor.py       # Loads model and makes predictions
+├── streamlit_app.py       # Main Streamlit UI
+├── train_model.py         # (Optional) Model training script
+├── model.pkl              # Trained Gradient Boosting model
+├── api_test_data.csv      # Sample input data (CSV)
+├── Template images 
+|   ├── Figure 1
+|   ├── Figure 2
+|   └── Figure 3  
+├── correlation_heatmap.png
+├── actual_vs_predicted.png
+└── requirements.txt       # Python dependencies
+
+```
+---
+
+## 🔭 Future Scope
+
+- 🌐 Integrate real-time AQI data using government APIs (like CPCB)
+- 📍 Add geolocation-based AQI prediction
+- 📱 Build a mobile version (Android/iOS)
+- ❤️ Add health advisory messages based on AQI category
+- 📊 Include interactive trend visualizations across cities
+
+---
+
+## Developed By:
+
+Srishti Bhatnagar
